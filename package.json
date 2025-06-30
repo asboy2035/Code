@@ -1,0 +1,25 @@
+{
+  "name": "codeimports",
+  "version": "0.0.2",
+  "description": "My personal code collection to import into other projects.",
+  "keywords": [
+    "css",
+    "components"
+  ],
+  "homepage": "https://github.com/asboy2035/CodeImports#readme",
+  "bugs": {
+    "url": "https://github.com/asboy2035/CodeImports/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://asboy2035@github.com/asboy2035/CodeImports.git"
+  },
+  "license": "Apache-2.0",
+  "author": "asboy2035",
+  "scripts": {
+    "build": "sass sass:css --style=compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
